@@ -6,15 +6,14 @@ This project will be conducting text analysis on Old Yeller by Fred Gipson. I wi
 ## Project Structure
 ```
 python_final_project/
-├── data_raw/                 # Raw, unprocessed data files
-│   ├── Old Yeller.csv       # Raw book text file
+├── written final           # Detailed explanation of the project
+│   ├── Old Yeller.csv      # Raw book text file
 ├── notebook.ipynb          # Main analysis notebook
 └── README.md               # This file
 ```
 
 ## Requirements
 - Python 3.7+
-- pandas
 - matplotlib
 - numpy
 - jupyter (for local execution)
@@ -28,12 +27,7 @@ python_final_project/
    cd python_final_project
    ```
 
-2. Install required packages (if needed):
-   ```bash
-   pip install pandas matplotlib numpy jupyter
-   ```
-
-3. Launch Jupyter Notebook:
+2. Launch Jupyter Notebook:
    ```bash
    jupyter notebook notebook.ipynb
    ```
@@ -41,7 +35,6 @@ python_final_project/
 ### Google Colab Execution
 1. Open [Google Colab](https://colab.research.google.com/)
 2. Upload the `notebook.ipynb` file or connect to your GitHub repository
-3. Run the first cell to automatically set up the environment
 
 ## Data Description
 - **Old Yeller**: Contains text file of the book Old Yeller
@@ -71,5 +64,5 @@ Run all cells in `notebook.ipynb` sequentially. The notebook will:
 5. Generate visualizations
 
 ## Author
-[Your Name]  
-[Course Name] - [Semester/Year]
+[Andrew Gray]  
+[Math 120] - [Fall 2025]
